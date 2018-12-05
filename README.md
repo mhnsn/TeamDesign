@@ -1,3 +1,6 @@
 # TeamDesign
 
-Right now, the only file you should care about is TeamDesign.v, which contains the verilog source code for the traffic light controller project.
+TeamDesign.v is the main source code file.
+TeamDesign.vwf contains an incomplete test simulation - the rest of the files can likely be ignored, but I'm unsure of that.
+
+These files will work for a Quartus Prime project called "TeamDesign".
