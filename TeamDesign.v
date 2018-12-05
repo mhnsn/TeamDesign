@@ -3,37 +3,7 @@ project description:
 
 */
 
-
-module team_proj(
-output g1,	// 1 = on
-output y1,	// 1 = on
-output r1,	// 1 = on
-output g2,	// 1 = on
-output y2,	// 1 = on
-output r2,	// 1 = on
- input ld1,	// wait time on green
- input ld2,	// wait time on red
- input en1,	// 
- input en2,	// 
- input ck	// clock
-);
-	reg [1:0] whichLight; 					// 00 = light 1, green 
-								// 01 = light 1, yellow 
-								// 10 = light 2, green
-								// 11 = light 2, yellow
-
-	reg [31:0] t1;						// countdown timer 1
-	reg [31:0] t2;						// countdown timer 2
-	
-	reg [1:0] l1;						// 1 = green
-								// 2 = yellow
-/*
-project description:
-
-*/
-
-
-module team_proj(
+module TeamDesign(
 output g1,	// 1 = on
 output y1,	// 1 = on
 output r1,	// 1 = on
@@ -127,4 +97,4 @@ output r2,	// 1 = on
 	assign r2 = (l2 == 3);
 
 
-endmodule;
+endmodule 
