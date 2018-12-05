@@ -58,7 +58,7 @@ output r2,	// 1 = on
 													// 2 = yellow
 													// 3 = red
 													// this is for light 1
-									
+
 	reg [1:0] l2;								// 1 = green
 													// 2 = yellow
 													// 3 = red
@@ -125,5 +125,6 @@ output r2,	// 1 = on
 	assign g2 = (l2 == 1);
 	assign y2 = (l2 == 2);
 	assign r2 = (l2 == 3);
-	
+
+
 endmodule;
